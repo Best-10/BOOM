@@ -20,7 +20,24 @@
 ### 🔒 แอคชูเอเตอร์ (Actuator)
 * **Servo Motor**: มอเตอร์ควบคุมสลักล็อกระเบิด (0° = ล็อก / 90° = จะปลดล็อกเมื่อระเบิดทำงาน)
 
+## 📌 Block Diagram
+
+## ผังงานการทำงาน (Flowchart)
+
+## รายการเอกสารทางเทคนิค (Component Datasheets)
+
+
 ## 🔌การต่อสาย (Pin Configuration)
 
+## แผนภาพการต่อวงจร (Circuit Diagram)
 
-## 
+##  ซอฟต์แวร์และไลบรารี (Software & Libraries)
+
+##  คู่มือและขั้นตอนการใช้งาน (How to Use & Quick Start)
+
+
+## ภาพชิ้นงานและการติดตั้งจริง (Actual Device & Implementation)
+
+## วิดีโอสาธิตการทำงาน (Video Demonstration)
+
+## เอกสาร (Documentation)
