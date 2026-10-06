@@ -38,11 +38,9 @@
 ## 📝 รายการเอกสารทางเทคนิค (Component Datasheets)
 | อุปกรณ์ (Component) | เอกสารอ้างอิง (Datasheet) |
 |---|---|
-| ESP32 DOIT DevKit V1 | |
-| Potentiometer | |
-| 0.96" OLED Display | |
-| Buzzer | |
-| Vibration (KY-002) | [Datasheet](https://drive.google.com/file/d/1RX5c7ZS-NEaHhLapKe-5Rhf1wcc78Wmq/view?usp=drive_link) |
+| ESP32 DOIT DevKit V1 |[Datasheet](https://drive.google.com/file/d/1aVoVxDzWnpNolKzWaaxSrSToYK2-mn1c/view?usp=sharing) |
+| 0.96" OLED Display |[Datasheet](https://drive.google.com/file/d/1HsU4zBcSTMZhK8xkEFPxA7GR8MZDMp7z/view?usp=sharing)|
+| Vibration (KY-002) |[Datasheet](https://drive.google.com/file/d/1RX5c7ZS-NEaHhLapKe-5Rhf1wcc78Wmq/view?usp=drive_link) |
 
 ---
 
