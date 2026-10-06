@@ -315,7 +315,7 @@ void updateTime()
     Time--;
 
     // นับถอยหลัง 3 วินาทีสุดท้ายก่อนระเบิด
-    if (Time <= 10 &&  Time > 0)
+    if (Time <= 3 &  Time > 0)
     {
      {
       // ส่งเสียงปี๊บเตือนจังหวะสั้นกระชับ
@@ -468,49 +468,6 @@ void gameOver()
   digitalWrite(BUZZER_PIN, LOW);   // ปิดเสียง Buzzer
   digitalWrite(RED_LED_PIN, HIGH); // ค้างไฟสีแดงไว้จบเกม
 }
-
-  // === เอฟเฟกต์เสียงระเบิด (Explosion Sound Effect) ===
-  // 1. เสียงกระแทกตอนระเบิด (Noise/Tone Sweep)
-  // for (int freq = 1500; freq > 100; freq -= 30) {
-  //   tone(BUZZER_PIN, freq);
-  //   digitalWrite(RED_LED_PIN, !digitalRead(RED_LED_PIN)); // ไฟแดงกระพริบถี่รวดเร็ว
-  //   delay(5);
-  // }
-  // noTone(BUZZER_PIN); // ปิดเสียงระเบิดระลอกแรก
-
-  // delay(100);
-
-  // 2. เสียงไซเรนเตือนภัยหลังระเบิด (Alarm Siren) 10 ครั้ง
-  // for (int i = 0; i < 10; i++)
-  // {
-  //   tone(BUZZER_PIN, 800); // เสียงสูง
-  //   digitalWrite(RED_LED_PIN, HIGH);
-  //   delay(150);
-    
-  //   tone(BUZZER_PIN, 400); // เสียงต่ำ
-  //   digitalWrite(RED_LED_PIN, LOW);
-  //   delay(150);
-  // }
-  
-  // noTone(BUZZER_PIN);             // หยุดส่งเสียง
-  // digitalWrite(BUZZER_PIN, LOW);
-  // digitalWrite(RED_LED_PIN, HIGH); // ค้างไฟสีแดงไว้
-// }
-
-//   Alarm
-//   int i;
-//   for (i = 0; i < 10; i++)
-//   {
-//     digitalWrite(BUZZER_PIN, HIGH);
-//     delay(200);
-//     digitalWrite(BUZZER_PIN, LOW);
-//     delay(100);
-//     // Red LED blink
-//     digitalWrite(RED_LED_PIN, !digitalRead(RED_LED_PIN));
-//   }
-//   digitalWrite(BUZZER_PIN, LOW);
-//   digitalWrite(RED_LED_PIN, HIGH);
-// }
 
 void loop()
 {
