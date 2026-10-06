@@ -42,6 +42,7 @@
 | Potentiometer | |
 | 0.96" OLED Display | |
 | Buzzer | |
+| Vibration (KY-002) | [Datasheet](https://drive.google.com/file/d/1RX5c7ZS-NEaHhLapKe-5Rhf1wcc78Wmq/view?usp=drive_link) |
 
 ---
 
