@@ -27,8 +27,13 @@
 ## ผังงานการทำงาน (Flowchart)
 <img width="1740" height="1026" alt="image" src="https://github.com/user-attachments/assets/f99ed22c-225e-4c07-bef7-6a1ba70602b1" />
 
-## รายการเอกสารทางเทคนิค (Component Datasheets)
-
+## :memo:รายการเอกสารทางเทคนิค (Component Datasheets)
+|อุปกรณ์ (Component)	| เอกสารอ้างอิง (Datasheet) | 
+|---|---|
+| ESP32 DOIT DevKit V1 |  | 
+| Potentiometer |  |
+| 0.96" OLED Display |  | 
+| Buzzer |  | 
 
 ## 🔌การต่อสาย (Pin Configuration)
 | Component | ESP32 Pin | Note |
@@ -91,7 +96,15 @@
 5.System Loop: วนตรวจสอบคำตอบ เวลา และการสั่นแบบเรียลไทม์ จนกว่าจะ DEFUSED หรือ GAME OVER
 
 ## ภาพชิ้นงานและการติดตั้งจริง (Actual Device & Implementation)
+<p align="center">
+  <img width="30%" alt="BOOM1" src="https://github.com/user-attachments/assets/ba808248-9f1d-4c55-a6d0-eb8fc2ea1c28">
+  &nbsp;&nbsp;&nbsp;
+  <img width="30%" alt="BOOM2" src="https://github.com/user-attachments/assets/e649b795-7265-4d22-a70c-68978129f793">
+  &nbsp;&nbsp;&nbsp;
+  <img width="30%" alt="BOOM3" src="https://github.com/user-attachments/assets/ee4c4e9c-c922-4511-978a-3f52287f4b23">
+</p>
 
 ## วิดีโอสาธิตการทำงาน (Video Demonstration)
+https://drive.google.com/file/d/1as-Y47HOoNO7oKxYfR1Myw3j9TWumdXS/view?usp=drive_link
 
 ## เอกสาร (Documentation)
